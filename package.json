@@ -1,6 +1,6 @@
 {
   "name": "@sitearcade/browserslist-config-arcade",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "postversion": "git push origin --all; git push origin --tags"
