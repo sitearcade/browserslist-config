@@ -1,10 +1,10 @@
 {
-  "name": "@sitearcade/browserslist-config-arcade",
+  "name": "@sitearcade/browserslist-config",
   "version": "0.0.2",
   "description": "SiteArcade's browserslist-config.",
   "license": "MIT",
   "homepage": "https://sitearcade.com",
-  "repository": "github:sitearcade/browserslist-config-arcade",
+  "repository": "github:sitearcade/browserslist-config",
   "bugs": "https://github.com/sitearcade/browserslist-config-arcade/issues",
   "author": {
     "name": "Mike Stop Continues",
@@ -14,13 +14,13 @@
   "main": "index.js",
   "scripts": {
     "postpublish": "git push origin --all; git push origin --tags",
-    "postversion": "npm publish",
+    "postversion": "npm publish --access public",
     "preversion": "npm test",
     "test": "echo 'Seems fine...'"
   },
   "devDependencies": {
     "@babel/core": "7.11.6",
-    "@sitearcade/eslint-config-arcade": "0.1.3",
+    "@sitearcade/eslint-config": "0.2.0",
     "babel-eslint": "11.0.0-beta.2",
     "eslint": "7.9.0",
     "eslint-import-resolver-lerna": "1.1.0",
@@ -41,7 +41,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@sitearcade/eslint-config-arcade"
+      "@sitearcade/eslint-config"
     ]
   }
 }

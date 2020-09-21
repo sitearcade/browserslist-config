@@ -10,7 +10,7 @@ Our browserslist config.
 ```json
 {
   "browserslist": [
-    "extends @sitearcade/browserslist-config-arcade"
+    "extends @sitearcade/browserslist-config"
   ]
 }
 ```
