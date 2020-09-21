@@ -1,11 +1,11 @@
 {
   "name": "@sitearcade/browserslist-config",
   "version": "0.1.0",
-  "description": "SiteArcade's browserslist-config.",
+  "description": "SiteArcade's browserslist configs.",
   "license": "MIT",
   "homepage": "https://sitearcade.com",
   "repository": "github:sitearcade/browserslist-config",
-  "bugs": "https://github.com/sitearcade/browserslist-config-arcade/issues",
+  "bugs": "https://github.com/sitearcade/browserslist-config/issues",
   "author": {
     "name": "Mike Stop Continues",
     "email": "mike@sitearcade.com",

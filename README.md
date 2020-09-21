@@ -1,10 +1,10 @@
-# @sitearcade/browserslist-config-arcade
+# @sitearcade/browserslist-config
 
 Our browserslist config.
 
 ## Installation
 
-1. `npm i -D @sitearcade/browserslist-config-arcade`
+1. `npm i -D @sitearcade/browserslist-config`
 2. Add to `package.json`:
 
 ```json
