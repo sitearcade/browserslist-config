@@ -11,7 +11,7 @@ const config = {
   development: [
     'last 1 version and last 1 year',
     'unreleased versions',
-    'node >= 14',
+    'node >= 12',
     'not dead',
     'not android > 0',
   ],
@@ -29,4 +29,4 @@ const config = {
 
 // export
 
-module.exports = config[env];
+module.exports = config[env] || config.development;
