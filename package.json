@@ -19,7 +19,7 @@
     "test": "echo 'Seems fine...'"
   },
   "devDependencies": {
-    "@sitearcade/eslint-config": "0.3.0"
+    "@sitearcade/eslint-config": "1.1.11"
   },
   "eslintConfig": {
     "extends": [
